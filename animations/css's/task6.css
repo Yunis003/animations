@@ -1,0 +1,43 @@
+ol li{
+    margin: 20px;
+}
+
+ol li::marker { 
+    animation-name: changeable; 
+    animation-duration: 0.5s; 
+    animation-fill-mode: forwards; 
+} 
+
+ol li:nth-child(1)::marker { 
+    animation-delay: 0; 
+} 
+
+ol li:nth-child(2)::marker { 
+    animation-delay: 0.5s; 
+} 
+
+ol li:nth-child(3)::marker { 
+    animation-delay: 1.0s; 
+} 
+
+ol li:nth-child(4)::marker { 
+    animation-delay: 1.5s; 
+} 
+
+ol li:nth-child(5)::marker { 
+    animation-delay: 2.0s; 
+} 
+
+@keyframes changeable { 
+    from { 
+        font-size: 12px; 
+    } 
+    to { 
+        font-size: 20px; 
+        color: green; 
+    } 
+} 
+
+h1{
+    color: green;
+}

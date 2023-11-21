@@ -1,0 +1,39 @@
+.container{
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   animation: container 7s ease-in infinite;
+   
+    
+}
+
+.red{
+    width: 180px;
+    height: 180px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: container 6s ease-in infinite;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: container 5s ease-in infinite;
+}
+
+
+@keyframes container {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}

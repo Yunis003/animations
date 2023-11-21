@@ -1,0 +1,15 @@
+div{
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: justify;
+    border-radius: 20px;
+    transition: all 0.1s ease-in;
+}
+div:hover{
+background-color: blanchedalmond;
+color: black;
+border-radius: 0%;
+}

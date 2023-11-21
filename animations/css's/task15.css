@@ -1,0 +1,62 @@
+.container{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+   
+    
+}
+.box1{
+    background-color: orange;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+}
+
+.box1:hover ~ .box6{
+    background-color: orange;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+    background-color:red;
+}
+.box2:hover ~ .box6{
+    background-color: red;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+    background-color: green;
+}
+.box3:hover ~ .box6{
+    background-color: green;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+    background-color: violet;
+}
+.box4:hover ~ .box6{
+    background-color: violet;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease-in;
+    background-color: yellow;
+}
+.box5:hover ~ .box6{
+    background-color: yellow;
+}
+.box6{
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}

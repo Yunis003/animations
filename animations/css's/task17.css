@@ -1,0 +1,10 @@
+div{
+    background-color: darkolivegreen;
+    width: 400px;
+    height: 200px;
+    margin: 200px;
+    transition: all 1s ease-in-out;
+}
+div:hover{
+    transform: scale(1.5);
+}

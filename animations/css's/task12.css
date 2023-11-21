@@ -1,0 +1,28 @@
+div{
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    
+    animation: changeable 4s ease-in-out infinite ;
+}
+@keyframes changeable {
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: black;
+    }
+    40%{
+        background-color: yellow;
+    }
+    60%{
+        background-color: red;
+    }
+    80%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+    
+}

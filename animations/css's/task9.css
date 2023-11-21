@@ -1,0 +1,33 @@
+.container{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.box1{
+    animation: turn 4s ease-in-out infinite;
+}
+.box2{
+    animation: turn 3.5s ease-in-out 0.5s infinite ;
+}
+.box3{
+    animation:turn 3s ease-in-out 1s infinite
+}
+
+@keyframes turn {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}

@@ -1,0 +1,28 @@
+div{
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    margin: 100px;
+
+    
+    animation: changeablebox 7s ease-in-out infinite;
+}
+
+@keyframes changeablebox {
+    0%{
+        transform: translate(0); border-radius: 50%; background-color: red;
+    }
+    25%{
+        transform: translateX(400px); background-color: black; border-radius: 0%;
+    }
+    50%{
+        transform: translate(400px,400px); background-color: blue; border-radius: 50%;
+    }
+    75%{
+        transform: translateY(400px); border-radius: 50%; background-color: yellow; border-radius: 0%;
+    }
+    100%{
+        transform:translateY(-400px,-400px); border-radius: 50%;
+    }
+}

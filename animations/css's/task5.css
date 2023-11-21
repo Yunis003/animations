@@ -1,0 +1,31 @@
+
+h2 {
+    width: 100%;
+   animation: textchange 3s ease-in-out infinite;
+}
+
+.first {
+    animation-direction: normal;
+}
+
+.second {
+    animation-direction: reverse;
+}
+
+.third {
+    animation-direction: alternate;
+}
+
+.four {
+    animation-direction: alternate-reverse;
+}
+
+@keyframes textchange {
+    from {
+        margin-left: 40%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}

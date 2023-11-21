@@ -1,0 +1,30 @@
+.box1{
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    
+}
+.box1::before{
+    content: "";
+width: 200px;
+height: 80px;
+background-color: blue;
+position: absolute;
+top:0;
+left: 0;
+z-index: -1;
+transform: translate(-150px);
+animation: loading 3s ease-in-out infinite;
+}
+
+@keyframes loading {
+    from{
+        transform: translate(-150px);
+    }
+    to{
+        transform: translate(0);
+    }
+    
+}

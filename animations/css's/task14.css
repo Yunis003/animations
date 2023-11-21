@@ -1,0 +1,41 @@
+.box1{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.box1 div{
+    background-color: aquamarine;
+    width: 30px;
+    height: 90px;
+    
+}
+.box1 div:nth-child(1){
+    animation: divs 1.7s ease-in infinite;
+}
+.box1 div:nth-child(2){
+    animation: divs 1.7s ease-in 0.1s infinite;
+}
+.box1 div:nth-child(3){
+    animation: divs 1.7s ease-in 0.2s infinite;
+}
+.box1 div:nth-child(4){
+    animation: divs 1.7s ease-in 0.3s infinite;
+}
+.box1 div:nth-child(5){
+    animation: divs 1.7s ease-in 0.4s infinite;
+}
+
+@keyframes divs {
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(2);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
+
